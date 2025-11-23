@@ -1,10 +1,11 @@
-from info import contacts
+import info
 
 def delete():
     name = input("Enter name to delete: ")
-    if name in contacts:
-        del contacts[name]
-        print(f"Contact with name {name} deleted!")
+    if name in info.contacts:
+        del info.contacts[name]
+        print(f"Contact {name} deleted!")
     else:
-        print(f"Contact with name {name} not found!")
+        print(f"{name} not found!")
+
 

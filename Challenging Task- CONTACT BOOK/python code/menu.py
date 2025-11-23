@@ -1,4 +1,3 @@
-# main.py
 from create import create
 from view import view
 from update import update
@@ -31,7 +30,7 @@ while True:
     elif choice == '6':
         Count()
     elif choice == '7':
-        print("Exiting...")
+        print("Exiting...Closing the program")
         break
     else:
         print("Invalid choice! Try again.")

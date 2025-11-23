@@ -1,13 +1,11 @@
-
-from info import contacts
+import info
 
 def search():
     search_name = input("Enter name to search: ")
-    found = False
-    for name, c in contacts.items():
-        if search_name.lower() in name.lower():
-            print(f"Found – Name: {name}, Age: {c['age']}, Phone: {c['phone']}, Email: {c['email']}")
-            found = True
-    if not found:
-        print("No matching contacts found in your contact book!")
+
+    if search_name in info.contacts:
+        c = info.contacts[search_name]
+        print(f"Found – Name: {search_name}, Age: {c['age']}, Phone: {c['phone']}, Email: {c['email']}")
+    else:
+        print(f"{search_name} not found in your contact book!")
 

@@ -1,4 +1,4 @@
-from info import contacts
+import info
 
 def Count():
-    print(f"Total contacts in your contact book are: {len(contacts)}")
+    print(f"Total contacts: {len(info.contacts)}")
