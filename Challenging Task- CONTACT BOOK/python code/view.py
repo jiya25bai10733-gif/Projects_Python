@@ -1,9 +1,9 @@
 from info import contacts
 
 def view():
-    name = input("Enter name to view from your contact book: ")
+    name = input("Enter name to view: ")
     if name in contacts:
         c = contacts[name]
-        print(f"Name: {name}, Age: {age}, Phone: {phone}, Email: {email}")
+        print(f"Name: {name}, Age: {c['age']}, Phone: {c['phone']}, Email: {c['email']}")
     else:
-        print(f"contact with name {name} not found!")
+        print(f"{name} not found in your contact book!")
