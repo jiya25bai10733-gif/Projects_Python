@@ -1,9 +1,11 @@
+# main.py
 from create import create
 from view import view
 from update import update
 from delete import delete
 from search import search
-from count import count
+from count import Count
+
 while True:
     print("\nContact Book Manager")
     print("1. Create Contact")
@@ -27,9 +29,10 @@ while True:
     elif choice == '5':
         search()
     elif choice == '6':
-        count_contacts()
+        Count()
     elif choice == '7':
         print("Exiting...")
         break
     else:
         print("Invalid choice! Try again.")
+

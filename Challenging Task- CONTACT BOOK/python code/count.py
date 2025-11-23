@@ -1,4 +1,4 @@
 from info import contacts
 
-def count_contacts():
+def Count():
     print(f"Total contacts in your contact book are: {len(contacts)}")
