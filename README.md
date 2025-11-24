@@ -1,12 +1,12 @@
-# 📚 Contact Book Manager (Python CLI)
+<h1 align="center">
+  ✨ <span style="color:#5DADE2;">Contact Book Manager</span>  
 
-A modular and beginner-friendly contact management system built using Python.  
-This CLI application lets you create, view, update, search, and delete contacts easily.
+</h1>
 
----
+<p align="center">
+  A modular, easy-to-use contact management system built with pure Python.
+</p>
 
-## 📝 Project Title
-**Contact Book Manager – Python Command Line Application**
 
 ---
 
